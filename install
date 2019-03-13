@@ -1,1 +1,4 @@
-apt-get -yq install silversearcher-ag ack
+#!/bin/bash
+set -eu
+
+apt-get -yq install silversearcher-ag ack cowsay
